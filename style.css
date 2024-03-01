@@ -1,0 +1,58 @@
+body{
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deez{
+    background-color: black;
+    
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.main-heading {
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    height: 60px;
+    width: 280px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.button-row {
+    margin-bottom: 10px; /* Add margin between button rows */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.button-row button {
+    background-color: grey;
+    color: orange;
+    height: 50px;
+    width: 70px;
+    font-size: 40px;
+    border-radius: 15px;
+    margin: 5px; /* Add margin between buttons */
+}
+
+.button-row .AC button{
+        width: 70px;
+}
+
+.gucci-title{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    background-color: black;
+    width: 370px;
+    border-radius: 20px;
+    margin-left: 134px;
+}
